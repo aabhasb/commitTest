@@ -33,12 +33,16 @@ private void hey(){
 	System.out.println(output);
 	int i=5;
 	i++;
+	try{
 	if(i>0){
 	System.out.println("hello");
 	}
 	else {
 	System.out.println("bye");
 	}
+	}catch(IOException e) {
+			e.printStackTrace();
+		}
 }
 
 }
